@@ -300,3 +300,4 @@ struct GamepadTextInputDismissed_t
 #pragma pack( pop )
 
 #endif // ISTEAMUTILS_H
+
