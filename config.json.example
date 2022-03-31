@@ -1,0 +1,48 @@
+{
+	"account": {
+		"username": "SteamUsername",
+		"password": "SteamPassword",
+		"sharedSecret": "",
+		"saveSteamGuard": false,
+		"invisible": false,
+		"notifyXPReward": false
+	},
+	"parsing": {
+		"forceConvictOnPreviousBan": 3,
+		"minimumTime": 240,
+		"waitCalculatedDemoTime": true,
+		"aimbot": {
+			"maxTicks": 10,
+			"threshold": 5.0
+		},
+		"afking": {
+			"radius": 50
+		},
+		"bhop": {
+			"tickDiff": 1
+		}
+	},
+	"detectors": {
+		"Aimbot": true,
+		"Wallhack": true,
+		"Griefing": true,
+		"AFKing": true,
+		"AntiAim": true,
+		"Bhop": true
+	},
+	"verdict": {
+		"writeLog": true,
+		"backupDemo": true,
+		"printScoreboard": true,
+		"logWithEmojis": true,
+		"maxVerdicts": 0,
+
+		"minAimbot": 15,
+		"minWallKills": 5,
+		"minAFKing": 5,
+		"minAntiAim": 20,
+		"minTeamKills": 2,
+		"minTeamDamage": 150,
+		"minBhop": 15
+	}
+}
