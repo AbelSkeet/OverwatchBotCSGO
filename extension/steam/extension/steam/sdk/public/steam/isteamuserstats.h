@@ -486,3 +486,4 @@ struct GlobalStatsReceived_t
 
 
 #endif // ISTEAMUSER_H
+
