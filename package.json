@@ -1,0 +1,48 @@
+{
+  "name": "csgo-overwatch-bot",
+  "version": "2.6.5",
+  "description": "Automatically solves Overwatch cases. Its not good but its trying.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeepIsla/CSGO-Overwatch-Bot.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "BeepIsla",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "almost-equal": "^1.1.0",
+    "bytebuffer": "^5.0.1",
+    "cheerio": "^1.0.0-rc.3",
+    "cli-table3": "^0.6.0",
+    "colors": "^1.4.0",
+    "demofile": "^1.8.0",
+    "inquirer": "^7.3.3",
+    "node-fetch": "^2.6.1",
+    "protobufjs": "^6.10.1",
+    "serialize-error": "^7.0.1",
+    "steam-totp": "^2.1.1",
+    "steam-user": "^4.18.0",
+    "steamid": "^1.1.3",
+    "unbzip2-stream": "^1.4.3",
+    "unzipper": "^0.10.11",
+    "vdf-parser": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.13.0"
+  },
+  "optionalDependencies": {
+    "steam": "file:extension/steam"
+  },
+  "bugs": {
+    "url": "https://github.com/BeepIsla/CSGO-Overwatch-Bot/issues"
+  },
+  "homepage": "https://github.com/BeepIsla/CSGO-Overwatch-Bot#readme",
+  "directories": {
+    "test": "tests"
+  }
+}
